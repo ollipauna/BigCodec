@@ -1,0 +1,13 @@
+[project]
+name = "BigCodec"
+version = "1.0.0"
+requires-python = ">= 3.9"
+license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+namespaces = true
+where = ["src"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
